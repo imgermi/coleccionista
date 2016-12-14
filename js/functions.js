@@ -52,3 +52,51 @@ $(document).ready(function () {
           scrollTop: 0}, 500);
     });
 });
+
+$(document).ready(function () {
+  $("#menu-1-map").click(function () {
+      $('html, body').animate({
+          scrollTop: $("#nosotros").offset().top
+      }, 500);
+    });
+});
+
+$(document).ready(function () {
+  $("#menu-2-map").click(function () {
+      $('html, body').animate({
+          scrollTop: $("#cafe").offset().top
+      }, 500);
+    });
+});
+
+$(document).ready(function () {
+  $("#menu-3-map").click(function () {
+      $('html, body').animate({
+          scrollTop: $("#testimonios").offset().top
+      }, 500);
+    });
+});
+
+$(document).ready(function () {
+  $("#menu-4-map").click(function () {
+      $('html, body').animate({
+          scrollTop: $("#ubicacion").offset().top
+      }, 500);
+    });
+});
+
+$(document).ready(function () {
+  $("#menu-5-map").click(function () {
+      $('html, body').animate({
+          scrollTop: $("#tour").offset().top
+      }, 500);
+    });
+});
+
+$(document).ready(function () {
+  $("#menu-6-map").click(function () {
+      $('html, body').animate({
+          scrollTop: $("#contacto").offset().top
+      }, 500);
+    });
+});
